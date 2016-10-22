@@ -1,0 +1,35 @@
+.header{
+	height: 56px;
+	background-color: #2189bf
+}
+.logo {
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+.search{
+	width: 397px;
+	height: 28px;
+	position: absolute;
+	left: 945px;
+	padding-top:14px; 
+}
+input{
+	width: 273px;
+	height: 28px;
+	margin-right: 20px;
+	padding-left:40px; 
+	background:#fff url(../img/zoom.png) no-repeat 12px 5px;
+	border: 0px solid white;
+	border-radius: 14px;
+	display: inline-block;
+}
+.search a{
+	width: 24;
+	height: 28px;
+	padding-left: 20px;
+	background: transparent url(../img/login.png) no-repeat;
+	font-size: 12px;
+	color: #fff;
+	display: inline-block;
+}

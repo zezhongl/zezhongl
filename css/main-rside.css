@@ -1,0 +1,75 @@
+.rside{
+	width: 1000px;
+	float: left;
+}
+.nav{
+	height: 30px;
+	padding-left: 24px;
+	background: #fff;
+	font-size: 13px;
+	line-height: 30px;
+}
+.nav a{
+	display: inline-block;
+	margin-left: 12px;
+	padding-right: 24px;
+}
+.nav a:hover{
+	color: blue;
+}
+.cont{
+	width: 892px;
+	margin: 0 auto;
+	padding-top: 19px;
+}
+.cont div{
+	margin-bottom: 12px;
+}
+.history{
+	width: 890px;height: 70px;
+	background: #fff;
+	border: 1px solid transparent;
+	border-radius: 2px;
+}
+.priceAndfind{
+	width: 892px;height: 65px;
+}
+.back,.forward,.price,._find,.find{
+    float: left;
+    margin-right: 4px;
+    background:#fff; 
+	border:1px solid #cacdd1; 
+	border-right-color:#ebecee; 
+	border-bottom-color:#ebecee;
+	display: block;
+}
+button{
+	display: inline-block;
+	width:29px; height:65px; 
+}
+button:hover{
+	background: #ebecee;
+}
+.price{
+	width: 109px;height: 51px;
+	padding-top: 12px;
+    text-align: center;
+}
+.find{
+    width: 75px;height:63px;
+    padding-left: 55px;
+    background:#fff url(../img/history.png) no-repeat 15px 15px;
+    line-height: 63px;
+    float: left;
+}
+.stati{
+	width: 892px;height: 95px;
+}
+.stati li{
+	width: 188px;height: 57px;
+	margin-right: 29px;
+	padding-top: 12px;
+	border: 1px solid #d8d9db;
+	background: #fff;
+	float: left; 
+}
