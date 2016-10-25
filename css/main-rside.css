@@ -1,5 +1,5 @@
 .rside{
-	width: 1000px;
+	width: 1020px;
 	float: left;
 }
 .nav{
@@ -67,7 +67,7 @@ button:hover{
 }
 .stati li{
 	width: 188px;height: 57px;
-	margin-right: 29px;
+	margin-right: 39px;
 	padding-top: 12px;
 	border: 1px solid #d8d9db;
 	background: #fff;
