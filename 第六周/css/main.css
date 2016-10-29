@@ -1,0 +1,57 @@
+.main{
+	width: 100%;
+}
+.nav{
+	width: 100%;
+	height: 52px;
+	position: fixed;
+}
+.nav-large{
+	height: 52px;
+	max-width: 980px;
+	margin:0 auto;
+	padding-bottom:; 
+	border-bottom: 1px solid gray;
+}
+.nav-largeRight{
+	float: right;
+	font-size: 11px;
+	line-height: 52px;
+}
+.welcomeSearch{
+	width: 100%;
+	height: 680px;
+	padding-top: 52px;
+    background: #45f340 url(../img/hero.png) no-repeat ;
+    background-size: 800px 500px;
+}
+.welcome{
+	max-width: 980px;
+	height: 680px;
+	margin: auto;
+}
+.welcomeTitle{
+	max-width: 980px;
+	margin:80px auto 40px;
+}
+h1{
+	font-size: 45px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+h1+p{
+    font-size: 18px;
+    text-align: center;
+}
+.welcome input{
+	width:613px;
+	height: 50px;
+	background:white url(../img/Search-black.svg) no-repeat 10px 10px;
+	background-size: 27px;
+	margin:auto;
+	padding:0px 35px 0px 50px;
+	border:1px solid white;
+	border-radius: 2px;
+	display: block;
+	font-size: 16px; 
+}
