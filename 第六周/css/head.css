@@ -5,14 +5,26 @@
 }
 .head-menu{
 	max-width: 980px;
+	height: 44px;
 	margin:0 auto;
 }
-.head-menu ul li {
+.head-menu ul li{
 	height: 44px;
-	margin:0 4.32%;
+	width: 12.1%;
 	float: left;
 	line-height: 44px;
-
+	text-align: center;
+}
+.head-menu ul li.menuApple{
+	width:7.6%;
+	text-align: left; 
+}
+.head-menu ul li.menuBag{
+	width: 7.6%;
+	text-align:right; ;
+}
+.head-menu ul{
+	width: auto;
 }
 .headM{
 	color: white;

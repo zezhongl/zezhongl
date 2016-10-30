@@ -2,91 +2,239 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>刘泽众的网页</title>
+	<link rel="shortcut icon" href="Appletitle.ico">
+	<title>官方 Apple 支持</title>
 	<link rel="stylesheet" type="text/css" href="css/reset-normal.css">
 	<link rel="stylesheet" href="css/head.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/foot.css">
 </head>
 <body>
 	<div class="head">
-	<div class="head-menu">
-		<ul>
-			<li class="menuApple" style="margin-left:0px;"">
-				<a href="#" class="Apple head-img"><img src="img/Apple-large.svg"></a>
-			</li>
-			<li class="menuMac">
+	    <div class="head-menu">
+		    <ul class="menu-large">
+			    <li class="menuApple">
+				<a href="https://www.apple.com/cn/" class="Apple head-img" target="_blank"><img src="img/Apple-large.svg"></a>
+			    </li>
+			    <li class="menuMac">
 				<a href="#" class="Mac headM">Mac</a>
-			</li>
-			<li class="menuIpad">
+			    </li>
+			    <li class="menuIpad">
 				<a href="#" class="Ipad headM">ipad</a>
-			</li>
-			<li class="menuIphone">
+			    </li>
+			    <li class="menuIphone">
 				<a href="#" class="Iphone headM">iphone</a>
-			</li>
-			<li class="menuWatch">
+			    </li>
+			    <li class="menuWatch">
 				<a href="#" class="Watch headM">Watch</a>
-			</li>
-			<li class="menuMusic">
+			    </li>
+			    <li class="menuMusic">
 				<a href="#" class="Music headM">Music</a>
-			</li>
-			<li class="menuSupport">
+			    </li>
+			    <li class="menuSupport">
 				<a href="#" class="Support" style="color:gray;">技术支持</a>
-			</li>
-			<li class="menuSearch">
+			    </li>
+			    <li class="menuSearch">
 				<a href="#" class="Search head-img"><img src="img/Search-large.svg"></a>
-			</li>
-			<li class="menuBag"  style="margin-right:0px;">
+			    </li>
+			    <li class="menuBag">
 				<a href="#" class="Bag head-img"><img src="img/Bag-large.svg"></a>
-			</li>
-		</ul>
-		<ul></ul>
-    </div>
+			    </li>
+		    </ul>
+		    <ul class="menu-small"></ul><!--这里有媒 wid767-->
+        </div>
 	</div>
 	<div class="main">
-		<div class="nav">
+		<span class="nav">
 			<div class="nav-large">
 				<span style="font-size:22px; color:#444;display:inline-block;height:52px;line-height:52px;">支持</span>
 				<div class="nav-largeRight">
 					<a href="#" style="padding-right:28px;">社区</a><a href="#">联系支持</a>
 				</div>
 			</div>
-			<div class="nav-small"></div>
-		</div>
+			<div class="nav-small"></div><!--这里有媒 wid767-->
+		</span>
 		<div class="welcomeSearch">
-			<div class="welcome">
+			<div class="welcome"><!--这里有媒*2 wid1068 wid735-->
 				<div class="welcomeTitle">
-					<h1>欢迎使用 Apple 支持</h1>
-					<p>我们随时提供帮助</p>
+					<h6>欢迎使用 Apple 支持</h6>
+					<p class="p1">我们随时提供帮助</p>
 				</div>
-				<input type="text" name="text" placeholder="搜索支持" list="history">
-				<datalist name="history">
-					<ul>快速链接
-					    <li>下载和更新</li>
-					    <li>手册</li>
-					    <li>技术规格</li>
-					    <li>Apple 支持社区</li>
-					    <li>保修状态（序列号）查询</li>
-					</ul>
-				</datalist>
+				<div class="Search-list">
+				    <input type="text" name="text" placeholder="搜索支持" list="history">
+				    <datalist id="history">
+					    <li>快速链接</li>
+					    <option value="下载和更新"></option>
+					    <option value="手册"></option>
+					    <option value="技术规格"></option>
+					    <option value="Apple 支持社区"></option>
+					    <option value="保修状态（序列号）查询"></option>
+				    </datalist>
+				</div>    
 			</div>
 		</div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
+		<div class="select">
+		    <div class="selectProduct"><!--这里有媒*2 wid1068 wid735-->
+		        <p class="p1">选择一种产品</p>
+			    <div><a href="#" target="_blank"><img src="img/AppleWatch.png"><br/>Apple Watch</a></div>
+			    <div><a href="#" target="_blank"><img src="img/iphone.png"><br/>iphone</a></div>
+			    <div><a href="#" target="_blank"><img src="img/ipad.png"><br/>ipad</a></div>
+			    <div><a href="#" target="_blank"><img src="img/Mac.png"><br/>iMac</a></div>
+			    <div><a href="#" target="_blank"><img src="img/AppleID.png"><br/>Apple ID</a></div>
+			    <div><a href="#" target="_blank"><img src="img/iTunes.png"><br/>iTunes</a></div>
+			</div>    
+		</div>
+		<div class="productList">展开产品列表</div>
+		<div class="hot">
+		    <div class="hotTheme"><!--这里有媒*2 wid1068 wid735-->
+		        <h1>热门主题</h1>
+			    <div class="hotThemeOne"><img src="img/photos-camera.png">
+			        <h2>拍摄和管理照片</h2>
+			        <p>了解如何使用 iPhone、iPad 或 iPod touch 拍摄、编辑、共享和储存照片。</p>
+			        <a href="#" target="_blank" class="a1">进一步了解照片&gt;</a>
+			    </div>
+			    <div class="hotThemeTwo"><img src="img/chat-emoji.png">
+			        <h2>如何了解使用“信息”</h2>
+			        <p>与您的朋友和家人保持联系，并了解 iOS 10 中新鲜有趣的“信息”功能。</p>
+			        <a href="#" target="_blank" class="a1">探索“信息”&gt;</a>
+			    </div>
+		    </div>
+		</div>
+		<div class="security">
+			<div class="securitySki"><!--这里有媒*2 wid1068 wid735-->
+				<div class="securitySkiImg"><img src="img/lock.png"></div>
+				<div class="securitySkiText">
+					<h1>确保 Apple 帐户安全的技巧</h1>
+					<p class="p1">此处介绍了一些实用技巧，可帮助您确保 Apple ID 和帐户信息安全。</p>
+					<a href="#" target="_blank" class="a1">获取有关确保 Apple 帐户安全的支持&gt;</a>
+				</div>
+			</div>
+		</div>
+		<div class="support">
+			<div class="supportCommunity"><!--这里有媒*2 wid1068 wid735-->
+			    <div class="supportCommunityImg"><img src="img/chat.png"></div>
+			    <div class="supportCommunityText">
+				    <h1>Apple 支持社区</h1>
+				    <p>查找解决方案并与全球 Apple 用户分享。</p>
+			    </div>
+		        <a href="#" target="_blank" class="a1">参与讨论&gt;</a>
+            </div>
+        </div>
+		<div class="wR">
+		    <div class="warrrepa"><!--这里有媒*2 wid1068 wid735-->
+			    <div class="warrrepaText">
+			    	<h1>保修和维修</h1>
+			    	<p>了解您的保修期限或维修进度。</p>
+			    </div>
+			    <div class="warrrepaImg">
+			    	<a href="#" target="_blank">
+			    	    <div class="warrrepaImgLeft">
+			    	        <img src="img/repair.png"><br/>
+			    	        <b><span>Apple 维修</span></b><br/>
+			    	        <p class="warrrepaImgA">了解您的 Apple 认证维修选项</p><br/><br/><br/>
+			    	        <span style="color:rgb(0,136,204)">查看维修选项&gt;</span>
+			    	    </div>
+			    	</a>
+			    	<a href="#" target="_blank">
+			    	    <div class="warrrepaImgMiddle">
+			    	        <img src="img/warranty.png"><br/>
+			    	        <b><span>查看您的保修状态</span></b><br/>
+			    	        <p class="warrrepaImgA">查看您的支持和服务资格</p><br/><br/><br/>
+			    	        <span style="color:rgb(0,136,204)">查看保修状态&gt;</span>
+			    	    </div>
+			    	</a>
+			    	<a href="#" target="_blank">
+			    	    <div class="warrrepaImgRight">
+			    	        <img src="img/checkmark.png"><br/>
+			                <b><span>查询维修状态</span></b><br/>
+			    	        <p class="warrrepaImgA">查看进行中的硬件维修的状态</p><br/><br/><br/>
+			    	        <span style="color:rgb(0,136,204)">查看维修状态&gt;</span>
+			    	    </div>
+			    	</a>
+			    </div>
+		    </div>
+		</div>    
+		<div class="assistance">
+			<div class="assistanceApple"><!--这里有媒*2 wid1068 wid735-->
+				<p class="p1">联系 Apple 支持</p>
+				<h1>您需要哪方面的帮助？</h1>
+				<p>通过电话、聊天或电子邮件获得支持，或安排维修</p>
+				<button class="blue">获得支持</button>
+			</div>
+		</div>
+		<div class="lecture">
+			<div class="lectureInChina">
+				<div class="lectureText"><!--这里有媒*2 wid1068 wid735-->
+					<h1>免费参加店内讲座。</h1>
+					<p>报名学习基础知识或提高您的技能。</p>
+					<a href="#" target="_blank" class="a1">查找您附近的讲座&gt;</a>
+				</div>
+			</div>
+			<div class="lectureInChinapolicy">
+				<p class="p1">了解 Apple 在中国的服务和保修政策</p>
+				<a href="#" target="_blank" style="color:rgb(0,136,204);">了解保修和服务选项
+                </a>
+			</div>
+		</div>
+		<div class="exchangeP">
+			<div class="exchangePlan"><!--这里有媒 wid735-->
+				<p class="p1">更换和维修扩展计划</p>
+				<a href="#" class="a1">Apple 交流电源插头转换器更换计划</a><br/>
+				<a href="#" class="a1">Apple USB-C 充电线缆更换计划</a><br/>
+				<a href="#" class="a1">适用于 iPhone 6 Plus 的 iSight 摄像头更换计划</a><br/>
+				<a href="#" class="a1">Beats Pill XL 扬声器召回计划</a><br/>
+				<a href="#" class="a1">iPhone 5 睡眠/唤醒按钮更换计划</a><br/>
+				<a href="#" class="a1">所有计划</a>
+			</div>
+		</div>
 	</div>
-	<div class="foot"></div>
+	<div class="foot">
+		<div class="footCont"><!--这里有媒 wid767-->
+		    <a href="https://www.apple.com/cn/" target="_blank"><div class="footContTop">&gt; 支持</div></a>
+			<div class="footContFour">
+				<ul>
+					<li><b>服务和支持</b></li>
+					<li><a href="#" target="_blank">免费提供的支持</a></li>
+					<li><a href="#" target="_blank">软件许可协议</a></li>
+					<li><a href="#" target="_blank">服务问题解答 (FAQ)</a></li>
+				</ul>
+			</div>
+			<div class="footContFour">
+				<ul>
+				    <li><b>计划</b></li>
+					<li><a href="#" target="_blank">Apple 培训</a></li>
+					<li><a href="#" target="_blank">教育资源</a></li>
+				</ul>
+			</div>
+			<div class="footContFour">
+				<ul>
+					<li><b>下载和更新</b></li>
+					<li><a href="#" target="_blank">手册</a></li>
+					<li><a href="#" target="_blank">技术规格</a></li>
+					<li><a href="#" target="_blank">系统状态</a></li>
+					<li><a href="#" target="_blank">辅助功能</a></li>
+					<li><a href="#" target="_blank">支持站点地图</a></li>
+				</ul>
+			</div>
+			<div class="footContFour">
+				<ul>
+					<li><a href="#" target="_blank"><b>支持电话号码</b></a></li>
+					<li><a href="#" target="_blank">Apple 授权服务提供商</a></li>
+					<li><a href="#" target="_blank">iTunes Store 支持</a></li>
+					<li><a href="#" target="_blank">联系移动运营商</a></li>
+				</ul>
+			</div>
+            <div class="footContBot">更多选购方式：前往 <a href="#" target="_blank" style="color:rgb(0,136,204);">Apple Store 零售店</a>、拨打 400-666-8800 或 <a href="#" target="_blank" style="color:rgb(0,136,204);">查找经销商</a>。</div>
+		</div>
+		<div class="footBot"><!--这里有媒 wid767-->
+		    <div class="footBotLeft">Copyright &copy; 2016 Apple Inc. 保留所有权利。</div>
+		    <div class="footBotConnect1 footBotConnect"><a href="">隐私政策</a></div>
+		    <div class="footBotConnect2 footBotConnect"><a href="">使用条款</a></div>
+		    <div class="footBotConnect3 footBotConnect"><a href="">销售和退款</a></div>
+		    <div class="footBotConnect4 footBotConnect"><a href="">站点地图</a></div>
+		    <div class="footBotConnect5 footBotConnect"><a href="">联系 Apple</a></div>
+		    <a href="https://www.apple.com/support/country/" target="_blank" class="footBotRight"><div class="footBotRight"><span>中国</span></div></a>
+		</div>
+	</div>
 </body>
 </html>
