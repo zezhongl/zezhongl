@@ -45,20 +45,47 @@ p{
 	display: block;
 	height: 52px;
 	position: fixed;
+	background: linear-gradient(rgba(208,208,208,0),rgba(208,208,208,1))
 }
 .nav-large{
-	height: 52px;
 	max-width: 980px;
+	height: 52px;
 	margin: auto;
 	border-bottom: 1px solid #bbb;
+	line-height: 52px;
 }
+.nav-large span{
+	height:52px;
+	font-size:22px; 
+	color:#444;
+	display:inline-block;}
 .nav-largeRight{
 	float: right;
 	font-size: 11px;
-	line-height: 52px;
+}
+.nav-largeRight a:first-child{
+    padding-right:28px;
 }
 .nav-largeRight a:hover{
 	color: rgb(0,136,204);
+}
+.nav-small{
+	width: 100%;
+	border-bottom: 1px solid #bbb;
+	padding: 0px 16px;
+	line-height: 52px;
+	display: none;
+}
+.nav-small-left{
+	font-size: 16px;
+}
+.nav-small-right{
+	display: block;
+	margin-right: 20px; 
+	float: right;
+	width: 15px;
+	height: 52px;
+	font-size: 20px;
 }
 .main .welcomeSearch{
 	height: 628px;
@@ -75,9 +102,10 @@ p{
 	padding:110px 0px 30px 0px;
 }
 .welcomeTitle h6{
-	font-size: 50px;
-	color: rgb(51,51,51);
 	padding-bottom: 25px;
+	font-size: 52px;
+	letter-spacing: 4px;
+	color: rgb(51,51,51);
 	text-align: center;
 }
 .welcomeTitle .p1{
@@ -86,7 +114,7 @@ p{
 .Search-list{
 	max-width: 613px;
 	height: 50px;
-	margin:0 auto; 
+	margin:0px auto;
 }
 .Search-list input{
 	width:100%;
@@ -244,7 +272,7 @@ p{
 	height: 219px;
 }
 .assistanceApple{
-	width: 980px;
+	max-width: 980px;
 	height: 215px;
 	text-align: center;
 }
@@ -266,7 +294,7 @@ p{
 	overflow: hidden;
 }
 .lectureText{
-	width: 400px;
+	max-width: 400px;
 	height: 200px;
 	padding-top: 158px;
 	margin-left: 120px;
@@ -284,7 +312,6 @@ p{
 .blue {
 	display: inline-block;
 	width: 84px;
-	background: #0095cd;
 	background: -webkit-gradient(linear, left top, left bottom, from(#41a0cb), to(#0071b9));
 	padding: 9px 2px;
 	border: 1px solid #0077cc;
@@ -317,7 +344,7 @@ p{
 	height: 232px;
 }
 .exchangePlan{
-	width: 980px;
+	max-width: 980px;
 	text-align: center;
 }
 .exchangePlan .p1{

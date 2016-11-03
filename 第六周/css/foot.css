@@ -34,6 +34,16 @@
 .footContFour li{
 	padding: 7px 0px;
 }
+.footContFour-small{
+	width: 100%;
+	height: 157px;
+	display: none;
+}
+.footContFour-small li{
+	width: 100%;
+	height: 38px;
+	border-top: 1px solid #eee;
+}
 .footContBot{
 	clear: both;
 }
