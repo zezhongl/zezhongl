@@ -1,16 +1,13 @@
 .foot{
 	width: 100%;
-	height:320px ;
 	background-color: #f2f2f2;
-	padding-bottom: 30px;
-	font-size: 6px;
+	font-size: 10px;
 }
 .foot a:hover{
     text-decoration: underline;
 }
 .footCont{
 	max-width: 980px;
-	height: 244px;
 	padding: 20px 0px;
 	margin: auto;
 	border-bottom: 1px solid rgb(214,214,214)
@@ -32,40 +29,31 @@
 	padding: 0px 0px 0px 24px;
 }
 .footContFour li{
-	padding: 7px 0px;
+	padding: 4px 0px;
 }
 .footContFour-small{
-	width: 100%;
-	height: 157px;
 	display: none;
-}
-.footContFour-small li{
-	width: 100%;
-	height: 38px;
-	border-top: 1px solid #eee;
 }
 .footContBot{
 	clear: both;
 }
+.footContBot a{
+	color: rgb(0,136,204);
+}
 .footBot{
 	max-width: 980px;
-	height: 20px;
 	padding: 12px 0px;
 	margin: auto;
 }
-.footBot>div{
-	float: left;
-}
 .footBotLeft{
-	height: 20px;
-	margin-right: 14px;
+	display: inline-block;
 }
 .footBotConnect{
-	width: 72px;
-	height: 20px;
+	width: 64px;
 	padding: 0px 12px;
 	border-right: 1px solid #d6d6d6;
 	text-align: center;
+	display: inline-block;
 }
 .footBotConnect5{
 	border-right: 0px;
@@ -76,5 +64,7 @@
 	background: url(../img/china.png) no-repeat;
 	background-size: 16px 16px;
 	padding-left: 20px;
+	margin-left: -10px;
 	float: right;
+	display: block;
 }

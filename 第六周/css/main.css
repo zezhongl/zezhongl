@@ -45,7 +45,7 @@ p{
 	display: block;
 	height: 52px;
 	position: fixed;
-	background: linear-gradient(rgba(208,208,208,0),rgba(208,208,208,1))
+	background: linear-gradient(rgba(207,207,212,0),rgba(207,207,212,1))
 }
 .nav-large{
 	max-width: 980px;
@@ -70,36 +70,20 @@ p{
 	color: rgb(0,136,204);
 }
 .nav-small{
-	width: 100%;
-	border-bottom: 1px solid #bbb;
-	padding: 0px 16px;
-	line-height: 52px;
 	display: none;
 }
-.nav-small-left{
-	font-size: 16px;
-}
-.nav-small-right{
-	display: block;
-	margin-right: 20px; 
-	float: right;
-	width: 15px;
-	height: 52px;
-	font-size: 20px;
-}
 .main .welcomeSearch{
-	height: 628px;
-	padding:0px;
+	height: 595px;
     background: url(../img/hero.png) no-repeat center -70px ;
-    background-size: 1812px 698px;
+    background-size: auto 700px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
 }
 .welcome{
 	max-width: 980px;
-	height: 628px;
-	margin: auto;
 }
 .welcomeTitle{
-	padding:110px 0px 30px 0px;
+	padding:70px 0px 30px 0px;
 }
 .welcomeTitle h6{
 	padding-bottom: 25px;
@@ -113,30 +97,24 @@ p{
 }
 .Search-list{
 	max-width: 613px;
-	height: 50px;
+	height: 48px;
 	margin:0px auto;
 }
 .Search-list input{
 	width:100%;
-	height: 50px;
+	height: 46px;
 	background:white url(../img/Search-black.svg) no-repeat 10px 10px;
 	background-size: 27px;
-	padding:0px 35px 0px 50px;
+	padding:0px 20px 0px 50px;
 	border:1px solid #dedede;
 	border-radius: 3px;
 	display: block;
 	font-size: 16px; 
 }
-.select{
-	height: 298px;
-}
-.selectProduct{/*媒后去掉max*/
+.selectProduct{
 	max-width: 1024px;
-	height: 298px;
 	font-size: 14px;
 	text-align:center;
-}
-.selectProduct .p1{
 }
 .selectProduct div{
 	width: 16.6%;
@@ -157,20 +135,15 @@ p{
 	text-align: center;
 	color: rgb(0,136,204);
 }
-.hot{
-	height: 456px;
-}
 .hotTheme{
 	max-width: 980px;
-	height: 456px;;
 }
 .hotTheme h1{
 	text-align: center;
 }
 .hotTheme>div{
 	float: left;
-	width: 37%;
-	height: 323px;
+	max-width: 37%;
 	padding-left: 13%;
 	color: #333;
 }
@@ -180,25 +153,18 @@ p{
 .hotTheme h2{
 	padding: 15px 0px;
 }
-.security{
-	height: 269px;
-}
 .securitySki{
-	width: 817px;
-	height: 269px;
+	max-width: 817px;
 }
 .securitySki div{
 	width: 50%;
-	float: right;
+	float: left;
 }
 .securitySkiImg{
 	height: 212px;
 }
 .securitySkiImg img{
 	height: 212px;
-}
-.securitySkiText{
-    height: 269px;
 }
 .securitySkiText h1{
 	padding-top: 0px;
@@ -208,8 +174,7 @@ p{
 	text-align: center;
 }
 .supportCommunity{
-	width: 817px;
-	height: 230px;
+	max-width: 817px;
 }
 .supportCommunityImg{
 	width: 80px;
@@ -226,21 +191,17 @@ p{
 	padding: 20px 0px;
 }
 .wR{
-	height: 445px;
 	text-align: center;
 }
 .warrrepa{
-	width: 980px;
-	height: 445px;
+	max-width: 980px;
 }
 .warrrepaText{
 	padding-bottom: 40px;
 }
 .warrrepaImg{
-	width: 980px;
-	height: 162px;
+	max-width: 980px;
 	background-color:#f5f5f5;
-	padding: 40px 0px;
 }
 .warrrepaImgMiddle{
     border-left: 1px solid #dedede;
@@ -250,30 +211,25 @@ p{
 	width: 25.07%;
 	height:162px; 
 	padding: 0px 40px;
+	margin: 40px 0px;
 	float: left;
-	font-size: 12px;
+	font-size: 13px;
 }
 .warrrepaImg div:hover{
 	color: rgb(0,136,204);
 	text-decoration: underline;
 }
-.warrrepaImg div p.warrrepaImgA:hover{
-	text-decoration-style: none;
+.warrrepaImg a div p:hover{
+	text-decoration: none;
 }
 .warrrepaImg img{
 	height: 40px;
 }
-
 .warrrepaImg a b{
-	font-size: 15px;
 	line-height: 43px;
-}
-.assistance{
-	height: 219px;
 }
 .assistanceApple{
 	max-width: 980px;
-	height: 215px;
 	text-align: center;
 }
 .assistanceApple h1{
@@ -283,45 +239,49 @@ p{
 	padding-bottom:20px;
 }
 .main .lecture{
-	height: 641px;
 	padding-top: 0px;
 }
 .lectureInChina{
 	max-width: 1200px;
 	height: 516px;
-	background: url(../img/workshop-large.png) no-repeat -300px;
+	background: url(../img/workshop-large.png) no-repeat center;
 	background-size:auto 516px; 
 	overflow: hidden;
 }
 .lectureText{
 	max-width: 400px;
-	height: 200px;
 	padding-top: 158px;
-	margin-left: 120px;
+	margin-right: 58%;
+	margin-left: auto;
 }
 .lectureInChinapolicy{
-	width: 980px;
+	max-width: 980px;
 	text-align: center;
 }
 .lectureInChinapolicy .p1{
 	padding: 35px;
 }
+.lectureInChinapolicy a{
+    font-size:13px;
+	color:rgb(0,136,204);
+}	
 .lectureInChinapolicy a:hover{
 	text-decoration: underline;
 }
 .blue {
 	display: inline-block;
 	width: 84px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#41a0cb), to(#0071b9));
+	background: -ms-gradient(linear, left top, left bottom, from(#41a0eb), to(#0171ca));
+	background: -webkit-gradient(linear, left top, left bottom, from(#41a0eb), to(#0171ca));
+	background: -moz-gradient(linear, left top, left bottom, from(#41a0eb), to(#0171ca));
 	padding: 9px 2px;
-	border: 1px solid #0077cc;
+	border: 1px solid #1580d0;
 	border-radius: 6px;
 	outline: none;
 	cursor: pointer;
 	font-size: 14px;
 	color: #d9eef7;
 	line-height: 16px;
-	text-decoration: none;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	-webkit-border-radius: 6px; 
@@ -330,15 +290,32 @@ p{
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
 .blue:hover{
-	background: #007ead;
+	background: -ms-gradient(linear, left top, left bottom, from(#50a8ed), to(#157cce));
 	background: -webkit-gradient(linear, left top, left bottom, from(#50a8ed), to(#157cce));
-	text-decoration: none;
+	background: -moz-gradient(linear, left top, left bottom, from(#50a8ed), to(#157cce));
+	-ms-transform:scale(5,5);
+	-webkit-transform:scale(5,5);
+	-moz-transform:scale(5,5);
+	transform:scale(5,5);
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	transition-duration: 200ms;
+	transition-timing-function: ease-out;
 }
-.button:active{
-	color: #80bed6;
-	background:  -webkit-gradient(linear, left top, left bottom, from(#3c93d9), to(#0068aa));
-	position: relative;
-	top: 1px;
+.blue:active{
+	color: #d0e0f6;
+	background: -ms-linear-gradient(bottom  , #3c93d8 , #0079ba);
+	background: -webkit-linear-gradient( top , #3c93d8 ,#0079ba);
+	background: -moz-linear-gradient(bottom  , #3c93d8 , #0079ba);
+	background: linear-gradient(bottom  , #3c93d8 , #0079ba); 
+	-ms-transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+    -moz-transform:scale(1,1);
+	transform:scale(1,1);
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in;
 }
 .exchange{
 	height: 232px;
